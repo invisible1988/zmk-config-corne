@@ -150,6 +150,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 // ZMK_COMBO(combo_copy,   &kp LG(C),  LB2 LB3, ALL)  // Ctrl + C, active on all layers
 // ZMK_COMBO(combo_paste,  &kp LG(V),  LB1 LB2, ALL)  // Ctrl + V, active on all layers
 ZMK_COMBO(combo_enter,  &kp RET, RM1 RM2, DEF)
+ZMK_COMBO(combo_esc,    &kp ESC, LM1 LM2, DEF)
 // ZMK_COMBO(combo_esc,    &kp ESC, LT4 LT3, ALL)
 
 
@@ -170,7 +171,7 @@ ZMK_LAYER(default_layer,
 
 ZMK_LAYER(nav_layer,
       // ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮ ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-          XXX            &kp ESC        ___            &kp LS(TAB)    &swapper       XXX              XXX            &de_ue         XXX            &de_oe         XXX            XXX
+          XXX            ___            XXX            &kp LS(TAB)    &swapper       XXX              XXX            &de_ue         XXX            &de_oe         XXX            XXX
       // ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
           XXX            &de_ae         &de_eszett     XXX            XXX            XXX              &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      XXX            XXX
       // ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
