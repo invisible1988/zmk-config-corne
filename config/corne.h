@@ -21,8 +21,6 @@
 #define SYS 5
 
 
-#include "mouse.dtsi"
-
 #define QUICK_TAP_MS 175
 
 &sk {  // sticky-key config
