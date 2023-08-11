@@ -94,6 +94,10 @@ ZMK_BEHAVIOR(dot_morph, mod_morph,
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
+ZMK_BEHAVIOR(dllr_morph, mod_morph,
+    bindings = <&kp DOLLAR>, <&euro_sign>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
 // tap: qmark | shift + tap: excl
 ZMK_BEHAVIOR(qexcl, mod_morph,
     bindings = <&kp QMARK>, <&kp EXCL>;
@@ -109,14 +113,8 @@ ZMK_BEHAVIOR(swapper, tri_state,
 // euro sign
 ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
-// combos
-// ZMK_COMBO(combo_copy,   &kp LG(C),  LB2 LB3, ALL)  // Ctrl + C, active on all layers
-// ZMK_COMBO(combo_paste,  &kp LG(V),  LB1 LB2, ALL)  // Ctrl + V, active on all layers
-ZMK_COMBO(combo_enter,  &kp RET, RM1 RM2, DEF NUM SYM)
-ZMK_COMBO(combo_esc,    &kp ESC, LM1 LM2, DEF NUM SYM)
 
-
-ZMK_CONDITIONAL_LAYER(SYM FUN, SYS)
+ZMK_CONDITIONAL_LAYER(NUM FUN, SYS)
 
 /* keymap */
 ZMK_LAYER(default_layer,
@@ -127,7 +125,7 @@ ZMK_LAYER(default_layer,
       // ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
           ___            &kp Z          &kp X          &kp C          &kp V          &kp B            &kp N          &kp M          &kp COMMA      &kp DOT        &qexcl         ___
       // ╰──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────╯
-                                                       &tp NUM ESC    &lt_spc NAV DEF &tp SYM TAB     &tp FUN RET    &tp UTL BKSP   &kp DEL
+                                                       &tp SYM ESC    &lt_spc NAV DEF &tp NUM TAB     &tp FUN RET    &tp UTL BKSP   &kp DEL
       //                                              ╰──────────────┴──────────────┴──────────────╯ ╰──────────────┴──────────────┴──────────────╯
         )
 
@@ -171,7 +169,7 @@ ZMK_LAYER(symbols_layer,
       // ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮ ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
           XXX            XXX            XXX            XXX            XXX            XXX              &kp LBRC       &kp AMPS       &kp STAR       &kp LPAR       &kp RBRC       XXX
       // ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-          XXX            &kp MEH        &kp LCTRL      &kp LCMD       &kp LSHFT      &kp LALT         &kp COLON      &kp DLLR       &kp PERCENT    &kp CARET      &kp PLUS       XXX
+          XXX            &kp MEH        &kp LCTRL      &kp LCMD       &kp LSHFT      &kp LALT         &kp COLON      &dllr_morph    &kp PERCENT    &kp CARET      &kp PLUS       XXX
       // ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
           XXX            XXX            XXX            XXX            XXX            XXX              &kp TILDE      &kp FSLH       &kp AT         &kp HASH       &kp PIPE       XXX
       // ╰──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤ ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────╯
