@@ -1,0 +1,200 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  default_layer:
+  - - {t: ▽, type: trans}
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+  - - P
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: A, h: LC(LS(LALT))}
+    - {t: S, h: LCTRL}
+    - {t: D, h: LCMD}
+    - {t: F, h: LSHFT}
+    - {t: G, h: LALT}
+    - {t: H, h: RALT}
+    - {t: J, h: RSHFT}
+  - - {t: K, h: RCMD}
+    - {t: L, h: RCTRL}
+    - {t: '''', h: LC(LS(LALT))}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Z
+    - X
+    - C
+    - V
+    - B
+  - - N
+    - M
+    - ','
+    - .
+    - {t: '?', s: '!'}
+    - {t: ▽, type: trans}
+    - {t: ESC, h: symbols_layer}
+    - {t: SPACE, h: nav_layer, s: '&dot_spc'}
+    - {t: TAB, h: num_layer}
+    - {t: RET, h: fn_layer}
+  - - {t: BKSP, h: utils_layer}
+    - DEL
+  nav_layer:
+  - - ''
+    - {t: ▽, type: trans}
+    - ESC
+    - LS(TAB)
+    - '&swapper'
+    - LG(GRAVE)
+    - ''
+    - {t: '&de_ue_lower', s: '&de_ue_upper'}
+    - ''
+    - {t: '&de_oe_lower', s: '&de_oe_upper'}
+  - ['', '', '', LC(LS(LALT)), LCTRL, LCMD, LSHFT, LALT, LEFT, DOWN]
+  - [UP, RIGHT, CAPS, '', '', '', '', '', '', '']
+  - - HOME
+    - PG DN
+    - PG UP
+    - END
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - BKSP
+    - {t: ▽, type: trans}
+  utils_layer:
+  - ['', '', '', '', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
+    - '&de_eszett_lower'
+    - ''
+    - ''
+    - ''
+    - RALT
+    - RSHFT
+  - [RCMD, RCTRL, LC(LS(LALT)), '', '', '', '', '', '', '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {type: held}
+    - {t: ▽, type: trans}
+  num_layer:
+  - ['', '', '', '', '', '', '[', '7', '8', '9']
+  - [']', '', '', LC(LS(LALT)), LCTRL, LCMD, LSHFT, LALT, ;, '4']
+  - ['5', '6', '=', '', '', '', '', '', '', '']
+  - - '`'
+    - '1'
+    - '2'
+    - '3'
+    - \
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - .
+  - ['0', '-']
+  symbols_layer:
+  - ['', '', '', '', '', '', '{', '&', '*', (]
+  - - '}'
+    - ''
+    - ''
+    - LC(LS(LALT))
+    - LCTRL
+    - LCMD
+    - LSHFT
+    - LALT
+    - ':'
+    - {t: $, s: '&euro_sign_lower'}
+  - ['%', ^, +, '', '', '', '', '', '', '']
+  - - '~'
+    - /
+    - '@'
+    - '#'
+    - '|'
+    - ''
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - (
+  - [), _]
+  fn_layer:
+  - ['', F9, F10, F11, F12, '', '', VOL DN, MUTE, VOL UP]
+  - [AL LOCK, '', '', F5, F6, F7, F8, '', '', PREV]
+  - [PP, NEXT, '', '', '', F1, F2, F3, F4, '']
+  - - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  system_layer:
+  - - {t: ▽, type: trans}
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+    - {t: BT, h: '4'}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&bootloader'
+    - '&bootloader'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - BT CLR
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - '&sys_reset'
+  - - '&sys_reset'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [19, 20]
+  k: RET
+  l: [default_layer, num_layer, symbols_layer]
+- p: [16, 15]
+  k: ESC
+  l: [default_layer, num_layer, symbols_layer]
