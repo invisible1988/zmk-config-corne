@@ -69,7 +69,7 @@ layers:
   - - BKSP
     - {t: ▽, type: trans}
   utils_layer:
-  - ['', '', '', '', '', '', '', '', '', '']
+  - ['', '', '', LG(LBRC), LG(RBRC), '', '', '', '', '']
   - - ''
     - ''
     - ''
@@ -185,16 +185,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-combos:
-- p: [19, 20]
-  k: RET
-  l: [default_layer, num_layer, symbols_layer]
-- p: [16, 15]
-  k: ESC
-  l: [default_layer, num_layer, symbols_layer]

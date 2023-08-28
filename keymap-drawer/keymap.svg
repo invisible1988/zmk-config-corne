@@ -204,10 +204,6 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="234.84799999999996" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="260.84799999999996" class="tap">DEL</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="130.5" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="143.5" class="combo tap">RET</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="130.5" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="143.5" class="combo tap">ESC</text>
 </g>
 <g class="layer-nav_layer">
 <text x="30.0" y="358.6530669589464" class="label">nav_layer:</text>
@@ -298,7 +294,9 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="88.0" y="740.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="144.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="200.0" y="719.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="226.0" y="745.3061339178928" class="tap" style="font-size: 88%">LG(LBRC)</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
+<text x="282.0" y="752.3061339178928" class="tap" style="font-size: 88%">LG(RBRC)</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="733.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="733.3061339178928" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="726.3061339178928" width="52.0" height="52.0" class="key"/>
@@ -435,10 +433,6 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="1226.807200876839" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="1252.807200876839" class="tap">-</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="1122.459200876839" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="1135.459200876839" class="combo tap">RET</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="1122.459200876839" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="1135.459200876839" class="combo tap">ESC</text>
 </g>
 <g class="layer-symbols_layer">
 <text x="30.0" y="1350.6122678357856" class="label">symbols_layer:</text>
@@ -518,10 +512,6 @@ path.combo {
 </g>
 <rect rx="6.0" ry="6.0" x="620.0" y="1557.4602678357855" width="52.0" height="52.0" class="key"/>
 <text x="646.0" y="1583.4602678357855" class="tap">_</text>
-<rect rx="6.0" ry="6.0" x="632.0" y="1453.1122678357856" width="28.0" height="26.0" class="combo"/>
-<text x="646.0" y="1466.1122678357856" class="combo tap">RET</text>
-<rect rx="6.0" ry="6.0" x="240.0" y="1453.1122678357856" width="28.0" height="26.0" class="combo"/>
-<text x="254.0" y="1466.1122678357856" class="combo tap">ESC</text>
 </g>
 <g class="layer-fn_layer">
 <text x="30.0" y="1681.265334794732" class="label">fn_layer:</text>
@@ -683,14 +673,14 @@ path.combo {
 <text x="786.0" y="2200.9184017536786" class="trans tap">▽</text>
 <rect rx="6.0" ry="6.0" x="816.0" y="2174.9184017536786" width="52.0" height="52.0" class="trans key"/>
 <text x="842.0" y="2200.9184017536786" class="trans tap">▽</text>
-<rect rx="6.0" ry="6.0" x="228.0" y="2218.7664017536786" width="52.0" height="52.0" class="held key"/>
+<rect rx="6.0" ry="6.0" x="228.0" y="2218.7664017536786" width="52.0" height="52.0" class="trans key"/>
+<text x="254.0" y="2244.7664017536786" class="trans tap">▽</text>
 <g transform="rotate(15.0, 315.59999999999997, 2252.9984017536785)">
 <rect rx="6.0" ry="6.0" x="289.59999999999997" y="2226.9984017536785" width="52.0" height="52.0" class="trans key"/>
 <text x="315.59999999999997" y="2252.9984017536785" class="trans tap">▽</text>
 </g>
 <g transform="rotate(30.0, 381.12, 2264.198401753679)">
-<rect rx="6.0" ry="6.0" x="355.12" y="2224.198401753679" width="52.0" height="80.0" class="trans key"/>
-<text x="381.12" y="2264.198401753679" class="trans tap">▽</text>
+<rect rx="6.0" ry="6.0" x="355.12" y="2224.198401753679" width="52.0" height="80.0" class="held key"/>
 </g>
 <g transform="rotate(-30.0, 518.88, 2264.198401753679)">
 <rect rx="6.0" ry="6.0" x="492.88" y="2224.198401753679" width="52.0" height="80.0" class="held key"/>
