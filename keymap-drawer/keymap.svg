@@ -517,13 +517,13 @@ path.combo {
 <text x="30.0" y="1681.265334794732" class="label">fn_layer:</text>
 <rect rx="6.0" ry="6.0" x="32.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1758.265334794732" class="tap">F9</text>
+<text x="114.0" y="1758.265334794732" class="tap">F12</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1744.265334794732" class="tap">F10</text>
+<text x="170.0" y="1744.265334794732" class="tap">F7</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1711.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1737.265334794732" class="tap">F11</text>
+<text x="226.0" y="1737.265334794732" class="tap">F8</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1744.265334794732" class="tap">F12</text>
+<text x="282.0" y="1744.265334794732" class="tap">F9</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1725.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1725.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1718.265334794732" width="52.0" height="52.0" class="key"/>
@@ -540,13 +540,13 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="816.0" y="1732.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1814.265334794732" class="tap">F5</text>
+<text x="114.0" y="1814.265334794732" class="tap">F11</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1800.265334794732" class="tap">F6</text>
+<text x="170.0" y="1800.265334794732" class="tap">F4</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1767.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1793.265334794732" class="tap">F7</text>
+<text x="226.0" y="1793.265334794732" class="tap">F5</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1800.265334794732" class="tap">F8</text>
+<text x="282.0" y="1800.265334794732" class="tap">F6</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1781.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1774.265334794732" width="52.0" height="52.0" class="key"/>
@@ -559,13 +559,13 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="816.0" y="1788.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="32.0" y="1844.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="88.0" y="1844.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="114.0" y="1870.265334794732" class="tap">F1</text>
+<text x="114.0" y="1870.265334794732" class="tap">F10</text>
 <rect rx="6.0" ry="6.0" x="144.0" y="1830.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="170.0" y="1856.265334794732" class="tap">F2</text>
+<text x="170.0" y="1856.265334794732" class="tap">F1</text>
 <rect rx="6.0" ry="6.0" x="200.0" y="1823.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="226.0" y="1849.265334794732" class="tap">F3</text>
+<text x="226.0" y="1849.265334794732" class="tap">F2</text>
 <rect rx="6.0" ry="6.0" x="256.0" y="1830.265334794732" width="52.0" height="52.0" class="key"/>
-<text x="282.0" y="1856.265334794732" class="tap">F4</text>
+<text x="282.0" y="1856.265334794732" class="tap">F3</text>
 <rect rx="6.0" ry="6.0" x="312.0" y="1837.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="536.0" y="1837.265334794732" width="52.0" height="52.0" class="key"/>
 <rect rx="6.0" ry="6.0" x="592.0" y="1830.265334794732" width="52.0" height="52.0" class="key"/>

@@ -129,47 +129,47 @@ parse_config:
     type: trans
   mark_alternate_layer_activators: false
   qmk_keycode_map:
-    XXXXXXX: ''
-    'NO': ''
-    MINUS: '-'
-    MINS: '-'
-    EQUAL: '='
-    EQL: '='
-    LEFT_BRACKET: '['
-    LBRC: '['
-    RIGHT_BRACKET: ']'
-    RBRC: ']'
+    XXXXXXX: ""
+    "NO": ""
+    MINUS: "-"
+    MINS: "-"
+    EQUAL: "="
+    EQL: "="
+    LEFT_BRACKET: "["
+    LBRC: "["
+    RIGHT_BRACKET: "]"
+    RBRC: "]"
     BACKSLASH: \
     BSLS: \
-    NONUS_HASH: '#'
-    NUHS: '#'
+    NONUS_HASH: "#"
+    NUHS: "#"
     SEMICOLON: ;
     SCLN: ;
-    QUOTE: ''''
-    QUOT: ''''
-    GRAVE: '`'
-    GRV: '`'
-    COMMA: ','
-    COMM: ','
+    QUOTE: "'"
+    QUOT: "'"
+    GRAVE: "`"
+    GRV: "`"
+    COMMA: ","
+    COMM: ","
     DOT: .
     SLASH: /
     SLSH: /
-    TILDE: '~'
-    TILD: '~'
-    EXCLAIM: '!'
-    EXLM: '!'
-    AT: '@'
-    HASH: '#'
+    TILDE: "~"
+    TILD: "~"
+    EXCLAIM: "!"
+    EXLM: "!"
+    AT: "@"
+    HASH: "#"
     DOLLAR: $
     DLR: $
-    PERCENT: '%'
-    PERC: '%'
+    PERCENT: "%"
+    PERC: "%"
     CIRCUMFLEX: ^
     CIRC: ^
-    AMPERSAND: '&'
-    AMPR: '&'
-    ASTERISK: '*'
-    ASTR: '*'
+    AMPERSAND: "&"
+    AMPR: "&"
+    ASTERISK: "*"
+    ASTR: "*"
     LEFT_PAREN: (
     LPRN: (
     RIGHT_PAREN: )
@@ -177,87 +177,87 @@ parse_config:
     UNDERSCORE: _
     UNDS: _
     PLUS: +
-    LEFT_CURLY_BRACE: '{'
-    LCBR: '{'
-    RIGHT_CURLY_BRACE: '}'
-    RCBR: '}'
-    PIPE: '|'
-    COLON: ':'
-    COLN: ':'
+    LEFT_CURLY_BRACE: "{"
+    LCBR: "{"
+    RIGHT_CURLY_BRACE: "}"
+    RCBR: "}"
+    PIPE: "|"
+    COLON: ":"
+    COLN: ":"
     DOUBLE_QUOTE: '"'
     DQUO: '"'
     DQT: '"'
     LEFT_ANGLE_BRACKET: <
     LABK: <
     LT: <
-    RIGHT_ANGLE_BRACKET: '>'
-    RABK: '>'
-    GT: '>'
-    QUESTION: '?'
-    QUES: '?'
+    RIGHT_ANGLE_BRACKET: ">"
+    RABK: ">"
+    GT: ">"
+    QUESTION: "?"
+    QUES: "?"
   zmk_keycode_map:
-    EXCLAMATION: '!'
-    EXCL: '!'
-    AT_SIGN: '@'
-    AT: '@'
-    HASH: '#'
-    POUND: '#'
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
     DOLLAR: $
     DLLR: $
-    PERCENT: '%'
-    PRCNT: '%'
+    PERCENT: "%"
+    PRCNT: "%"
     CARET: ^
-    AMPERSAND: '&'
-    AMPS: '&'
-    ASTERISK: '*'
-    ASTRK: '*'
-    STAR: '*'
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
     LEFT_PARENTHESIS: (
     LPAR: (
     RIGHT_PARENTHESIS: )
     RPAR: )
-    EQUAL: '='
+    EQUAL: "="
     PLUS: +
-    MINUS: '-'
+    MINUS: "-"
     UNDERSCORE: _
     UNDER: _
     SLASH: /
     FSLH: /
-    QUESTION: '?'
-    QMARK: '?'
+    QUESTION: "?"
+    QMARK: "?"
     BACKSLASH: \
     BSLH: \
-    PIPE: '|'
+    PIPE: "|"
     NON_US_BACKSLASH: \
-    PIPE2: '|'
-    NON_US_BSLH: '|'
+    PIPE2: "|"
+    NON_US_BSLH: "|"
     SEMICOLON: ;
     SEMI: ;
-    COLON: ':'
-    SINGLE_QUOTE: ''''
-    SQT: ''''
+    COLON: ":"
+    SINGLE_QUOTE: "'"
+    SQT: "'"
     APOSTROPHE: <
     APOS: .
     DOUBLE_QUOTES: '"'
     DQT: '"'
-    COMMA: ','
+    COMMA: ","
     LESS_THAN: <
     LT: <
     PERIOD: .
     DOT: .
-    GREATER_THAN: '>'
-    GT: '>'
-    LEFT_BRACKET: '['
-    LBKT: '['
-    LEFT_BRACE: '{'
-    LBRC: '{'
-    RIGHT_BRACKET: ']'
-    RBKT: ']'
-    RIGHT_BRACE: '}'
-    RBRC: '}'
-    GRAVE: '`'
-    TILDE: '~'
-    NON_US_HASH: '#'
-    NUHS: '#'
-    TILDE2: '~'
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET: "["
+    LBKT: "["
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET: "]"
+    RBKT: "]"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    GRAVE: "`"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
   zmk_combos: {}
