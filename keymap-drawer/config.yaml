@@ -122,7 +122,11 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map:
+    "&bootloader": "BOOT"
+    "&kp LC(LS(LALT))": "MEH"
+    "&de_ue_upper": "Ü"
+    "&de_ue_lower": "ü"
   sticky_label: sticky
   trans_legend:
     t: ▽
@@ -260,4 +264,5 @@ parse_config:
     NON_US_HASH: "#"
     NUHS: "#"
     TILDE2: "~"
+    "&bootloader": "BOOT"
   zmk_combos: {}
