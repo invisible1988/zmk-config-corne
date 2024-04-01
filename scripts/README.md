@@ -10,4 +10,5 @@
 ```sh
 west build -d /workspace/zmk-config/build/left -b puchi_ble_v1 -- -DSHIELD=corne_left -DZMK_CONFIG=/workspace/zmk-config/config/
 west build -d /workspace/zmk-config/build/right -b puchi_ble_v1 -- -DSHIELD=corne_right -DZMK_CONFIG=/workspace/zmk-config/config/
+west build -d /workspace/zmk-config/build/settings_reset -b puchi_ble_v1 -- -DSHIELD=settings_reset -DZMK_CONFIG=/workspace/zmk-config/config/
 ```
